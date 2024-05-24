@@ -1,0 +1,18 @@
+form{
+  margin-top: 100px;
+}
+input, button{
+  font-size: 26px;
+  cursor: pointer;
+}
+h1{
+  text-align: center;
+}
+main{
+  max-width: 50%;
+  text-align: center;
+  padding: 40px;
+  border: solid;
+  margin:auto;
+  margin-top: 100px;
+}
