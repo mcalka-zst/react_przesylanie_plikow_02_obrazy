@@ -9,10 +9,15 @@ h1{
   text-align: center;
 }
 main{
-  max-width: 50%;
+  width:70%;
   text-align: center;
   padding: 40px;
   border: solid;
   margin:auto;
   margin-top: 100px;
+  background-color: bisque;
+}
+.error{
+  color:red;
+  font-size: 20px;
 }

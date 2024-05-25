@@ -40,7 +40,7 @@ app.post('/upload', upload.single('file'), (req, res) => {
     return res.status(400).json({ error: 'Nieprawidłowy plik. Dozwolone są tylko pliki JPG i PNG do 1MB.' });
   }
   console.log('Przesłano ', req.file);
-  res.json({ message: 'Plik został przesłany pomyślnie!', file: req.file });
+  res.json({ message: 'Plik został przesłany pomyślnie!'});
 });
 
 //-------------------------------------------------
